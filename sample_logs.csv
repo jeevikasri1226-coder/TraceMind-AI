@@ -1,0 +1,9 @@
+timestamp,source,event,user,ip,file,details
+2026-10-20T09:00:00Z,system_log,Successful login,alex,192.0.2.10,,Normal office login
+2026-10-20T09:03:00Z,system_log,Failed login,casey,198.51.100.23,,Incorrect password
+2026-10-20T09:04:00Z,system_log,Failed login,casey,198.51.100.23,,Incorrect password
+2026-10-20T09:05:00Z,system_log,Failed login,casey,198.51.100.23,,Incorrect password
+2026-10-20T09:07:00Z,system_log,Successful login,casey,198.51.100.23,,Successful login after repeated failures; review context
+2026-10-20T09:10:00Z,browser_history,File downloaded,casey,198.51.100.23,report_demo.pdf,Demo record for timeline correlation
+2026-10-20T09:12:00Z,network_log,Outbound connection,casey,198.51.100.23,,Demo outbound connection; context required
+2026-10-20T09:14:00Z,file_metadata,File access,alex,192.0.2.10,notes.txt,Details marked unusual for demonstration
